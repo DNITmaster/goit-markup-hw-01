@@ -1,0 +1,14 @@
+body { 
+       font-family: "raleway",sans-serif ; 
+       font-family: "roboto", sans-serif ;
+}
+
+.list {
+list-style:none;
+}
+.link {
+ text-decoration: none;
+}
+.header {
+background-color: rgb(211, 32, 32);
+}
