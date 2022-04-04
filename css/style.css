@@ -1,7 +1,4 @@
 :root {
-   --header-color: #212121;
-   --title-color: #FFFFFF;
-   --btn-color: #FFFFFF;
    --accent-color: #2196F3;
 }
 
@@ -21,7 +18,6 @@ list-style:none;
 /*------------------HEADER-----------------*/ 
 
 .header-logo {
-font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -66,7 +62,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .hero-btn {
-   font-family: 'Roboto';
+   font-family: 'inherit';
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -74,9 +70,12 @@ color: #FFFFFF;
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
-   color:var(--btn-color)
+   color: #FFFFFF;
    }
-
+   .hero-btn:hover,
+   .hero-btn:focus{
+    color:var(--accent-color)
+ }
    .hero {
     background-color: #2F303A;
     }
@@ -141,13 +140,12 @@ color: #212121;
 }
 /*-----------------------FOOTER-----------------------*/
 .footer {
-   background-color: rgb(51, 63, 63);
+   background-color: #2F303A;
 }
 .footer-logo {
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -164,4 +162,11 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-mail:hover,
+.footer-mail:focus{
+    color:var(--accent-color)
+ }
+ .footer-tel:hover,
+ .footer-tel:focus{
+    color:var(--accent-color)
+ }
